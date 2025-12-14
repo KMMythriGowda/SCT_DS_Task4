@@ -1,8 +1,7 @@
 # 🚦 Traffic Accident Data Analysis – Task 4
 ## 🔗 View Notebook
 You can view the full Jupyter Notebook online via **nbviewer**:  
-https://nbviewer.org/github/KMMythriGowda/SCT_DS_Task4/blob/main/SCT_DS_Task4.ipynb
-
+https://nbviewer.org/github/KMMythriGowda/SCT_DS_Task4/blob/main/SCT_DS_4.ipynb
 
 ## Objective
 To analyze a real-world **Road Traffic Accident (RTA) dataset** and identify patterns related to accident frequency, severity, and contributing factors such as **time, weather, and road conditions**. This helps in **improving road safety and planning preventive measures**.
