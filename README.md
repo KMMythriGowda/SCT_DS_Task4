@@ -1,40 +1,40 @@
-# **🚦 Traffic Accident Data Analysis – Task 4**
+# 🚦 Traffic Accident Data Analysis – Task 4
 
-## **📌 Project Overview**
+## 📌 Project Overview
 Road traffic accidents are a major public safety concern, leading to loss of life, injuries, and economic damage. Understanding accident patterns through data analysis can help in identifying high-risk situations and locations, enabling better traffic management and safety planning.
 
 This project focuses on analyzing a real-world **Road Traffic Accident (RTA) dataset** to uncover meaningful patterns related to **time of day, weather conditions, road surface conditions**, and **accident-prone areas** using data visualization techniques.
 
-## **🎯 Problem Statement**
+## 🎯 Problem Statement
 Analyze traffic accident data to:
 - Identify accident patterns based on **time of day**
 - Study the impact of **weather conditions**
 - Analyze the influence of **road surface conditions**
 - Identify **accident hotspot areas**
-- Present insights using clear and interpretable visualizations
-
-## **📂 Dataset Used**
+- Present insights using clear and interpretable visualizations.
+  
+## 📂 Dataset Used
 **Road Traffic Accident (RTA) Dataset**
 
 This dataset contains real-world accident records with attributes such as:
-- Time of accident
-- Day of week
-- Weather conditions
-- Road surface conditions
-- Area where the accident occurred
-- Accident severity
-- Number of vehicles and casualties involved
+- Time of accident  
+- Day of week  
+- Weather conditions  
+- Road surface conditions  
+- Area where the accident occurred  
+- Accident severity  
+- Number of vehicles and casualties involved  
 
-The dataset is lightweight and suitable for exploratory data analysis and visualization.
+> Dataset used for academic and analytical purposes.
 
-## **🛠 Tools & Technologies**
+## 🛠 Tools & Technologies
 - **Python**
 - **Pandas** – Data loading and preprocessing
 - **Matplotlib** – Basic visualizations
 - **Seaborn** – Statistical and categorical plots
 - **Google Colab** – Development environment
 
-## **🔍 Methodology**
+## 🔍 Methodology
 1. **Data Loading**
    - Uploaded and extracted the dataset using Google Colab.
 2. **Data Cleaning**
@@ -49,26 +49,25 @@ The dataset is lightweight and suitable for exploratory data analysis and visual
    - Identified accident-prone areas using area-wise accident frequency.
 6. **Visualization**
    - Used count plots and bar charts to clearly present insights.
-     
-## **📊 Key Analysis & Visualizations**
+
+## 📊 Key Analysis & Visualizations
 - ⏰ **Time of Day Analysis** – Identified peak accident hours  
 - 🌦️ **Weather Conditions Analysis** – Studied weather impact on accidents  
 - 🛣️ **Road Surface Conditions Analysis** – Examined road condition influence  
 - 📍 **Accident Hotspots** – Identified high-risk areas  
 - ⚠️ **Accident Severity Distribution** – Analyzed severity levels  
 
-## **📈 Key Insights**
+## 📈 Key Insights
 - Most accidents occur during **morning and evening peak hours**
 - Weather conditions influence accident frequency and severity
 - Poor road surface conditions increase accident risk
 - Certain areas consistently show higher accident counts, indicating hotspots
 - Data visualization helps transform raw data into actionable insights
 
-## **✅ Conclusion**
+## ✅ Conclusion
 This project demonstrates how exploratory data analysis and visualization can be used to understand traffic accident patterns. The insights obtained can support better road safety planning, traffic control strategies, and preventive measures. Such data-driven approaches are essential for improving transportation safety and reducing accident risks.
 
-## **📁 Repository Structure**
-
+## 📁 Repository Structure
 ```text
 Traffic-Accident-Data-Analysis/
 │
@@ -76,25 +75,7 @@ Traffic-Accident-Data-Analysis/
 ├── README.md
 └── requirements.txt
 
-##**📎Requirements**
+**📎Requirements**
 Install required libraries using:
-```bash
-pip install -r requirements.txt
-
-
-##**How to Run**
-```markdown
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-```bash
-git clone https://github.com/KMMythriGowda/SCT_DS_Task4.git
-
-2. Install the required libraries:
-```
-pip install -r requirements.txt
-
-3. Open the notebook (SCT_DS_4.ipynb) using:
-Google Colab
-
-
+bash
+```pip install -r requirements.txt
