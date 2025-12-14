@@ -68,3 +68,14 @@ The dataset is lightweight and suitable for exploratory data analysis and visual
 This project demonstrates how exploratory data analysis and visualization can be used to understand traffic accident patterns. The insights obtained can support better road safety planning, traffic control strategies, and preventive measures. Such data-driven approaches are essential for improving transportation safety and reducing accident risks.
 
 ## **📁 Repository Structure**
+Traffic-Accident-Data-Analysis/
+│
+├── SCT_DS_4.ipynb
+├── README.md
+└── requirements.txt
+
+## 📎 Requirements
+Install required libraries using:
+```bash
+pip install -r requirements.txt
+
