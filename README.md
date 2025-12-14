@@ -67,7 +67,7 @@ The dataset is lightweight and suitable for exploratory data analysis and visual
 ## **✅ Conclusion**
 This project demonstrates how exploratory data analysis and visualization can be used to understand traffic accident patterns. The insights obtained can support better road safety planning, traffic control strategies, and preventive measures. Such data-driven approaches are essential for improving transportation safety and reducing accident risks.
 
-## 📁 Repository Structure
+## **📁 Repository Structure**
 
 ```text
 Traffic-Accident-Data-Analysis/
@@ -76,20 +76,13 @@ Traffic-Accident-Data-Analysis/
 ├── README.md
 └── requirements.txt
 
-## 📎 Requirements
+##**📎Requirements**
 Install required libraries using:
 ```bash
 pip install -r requirements.txt
 
 
-👉 This fixes the display issue you faced earlier.
-
----
-
 ##**How to Run**
-
-Add this **below Requirements**:
-
 ```markdown
 ## 🚀 How to Run the Project
 
@@ -98,7 +91,6 @@ Add this **below Requirements**:
 git clone https://github.com/KMMythriGowda/SCT_DS_Task4.git
 
 2. Install the required libraries:
-
 ```
 pip install -r requirements.txt
 
