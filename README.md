@@ -1,102 +1,38 @@
 # 🚦 Traffic Accident Data Analysis – Task 4
 
-## 📌 Project Overview
-Road traffic accidents are a major public safety concern, leading to loss of life, injuries, and economic damage. Understanding accident patterns through data analysis can help in identifying high-risk situations and locations, enabling better traffic management and safety planning.
+## Objective
+To analyze a real-world **Road Traffic Accident (RTA) dataset** and identify patterns related to accident frequency, severity, and contributing factors such as **time, weather, and road conditions**. This helps in **improving road safety and planning preventive measures**.
 
-This project focuses on analyzing a real-world **Road Traffic Accident (RTA) dataset** to uncover meaningful patterns related to **time of day, weather conditions, road surface conditions**, and **accident-prone areas** using data visualization techniques.
+## Tools & Libraries
+- **Python 3**
+- **Pandas** – for data manipulation
+- **NumPy** – for numerical operations
+- **Matplotlib & Seaborn** – for data visualization
+- **Jupyter Notebook** – for interactive analysis
 
-## 🎯 Problem Statement
-Analyze traffic accident data to:
-- Identify accident patterns based on **time of day**
-- Study the impact of **weather conditions**
-- Analyze the influence of **road surface conditions**
-- Identify **accident hotspot areas**
-- Present insights using clear and interpretable visualizations.
-  
-## 📂 Dataset Used
-**Road Traffic Accident (RTA) Dataset**
+## Data Cleaning & Preprocessing
+- Checked and handled **missing values**.
+- Converted **date and time columns** to datetime format.
+- Standardized **categorical variables**.
+- Removed **duplicates**.
+- Created new features like `Hour` from time and `Month` from date.
 
-This dataset contains real-world accident records with attributes such as:
-- Time of accident  
-- Day of week  
-- Weather conditions  
-- Road surface conditions  
-- Area where the accident occurred  
-- Accident severity  
-- Number of vehicles and casualties involved  
+## Analysis & Insights
+- Accident frequency **peaks during evening hours**.
+- **Wet and foggy weather** contributes to more accidents.
+- Certain road types (like **single carriageways**) have higher accident rates.
+- Accident severity is higher during **night-time and poor light conditions**.
 
-> Dataset used for academic and analytical purposes.
+## Results
+- Identified **high-risk time periods and weather conditions**.
+- Pinpointed road types with **higher accident likelihood**.
+- Insights can help improve **road safety measures and emergency response planning**.
 
-## 🛠 Tools & Technologies
-- **Python**
-- **Pandas** – Data loading and preprocessing
-- **Matplotlib** – Basic visualizations
-- **Seaborn** – Statistical and categorical plots
-- **Google Colab** – Development environment
+## Files
+- `SCT_DS_Task4.ipynb` – contains full analysis, visualizations, and results.
 
-## 🔍 Methodology
-1. **Data Loading**
-   - Uploaded and extracted the dataset using Google Colab.
-2. **Data Cleaning**
-   - Handled missing values to ensure clean analysis.
-3. **Feature Engineering**
-   - Converted time into hourly format.
-   - Categorized accidents into Morning, Afternoon, Evening, and Night.
-4. **Exploratory Data Analysis**
-   - Analyzed accident frequency by time of day.
-   - Studied weather and road surface conditions.
-5. **Hotspot Identification**
-   - Identified accident-prone areas using area-wise accident frequency.
-6. **Visualization**
-   - Used count plots and bar charts to clearly present insights.
+## About
+Traffic Accident Data Analysis – identifying critical patterns and risk factors to aid in **road safety and accident prevention strategies**.
 
-## 📊 Key Analysis & Visualizations
-- ⏰ **Time of Day Analysis** – Identified peak accident hours  
-- 🌦️ **Weather Conditions Analysis** – Studied weather impact on accidents  
-- 🛣️ **Road Surface Conditions Analysis** – Examined road condition influence  
-- 📍 **Accident Hotspots** – Identified high-risk areas  
-- ⚠️ **Accident Severity Distribution** – Analyzed severity levels  
-
-## 📈 Key Insights
-- Most accidents occur during **morning and evening peak hours**
-- Weather conditions influence accident frequency and severity
-- Poor road surface conditions increase accident risk
-- Certain areas consistently show higher accident counts, indicating hotspots
-- Data visualization helps transform raw data into actionable insights
-
-## ✅ Conclusion
-This project demonstrates how exploratory data analysis and visualization can be used to understand traffic accident patterns. The insights obtained can support better road safety planning, traffic control strategies, and preventive measures. Such data-driven approaches are essential for improving transportation safety and reducing accident risks.
-
-## 📁 Repository Structure
-```text
-Traffic-Accident-Data-Analysis/
-│
-├── SCT_DS_4.ipynb
-├── README.md
-└── requirements.txt
-
-**📎Requirements**
-Install required libraries using:
-bash
-```pip install -r requirements.txt
-
-🚀 How to Run the Project
-Clone the repository:
-git clone https://github.com/KMMythriGowda/SCT_DS_Task4.git
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open the notebook (SCT_DS_4.ipynb) using:
-
-Google Colab, or
-
-Jupyter Notebook
-
-Run the cells sequentially to view the analysis and visualizations.
-
-📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+MIT License
