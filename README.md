@@ -79,3 +79,24 @@ Traffic-Accident-Data-Analysis/
 Install required libraries using:
 bash
 ```pip install -r requirements.txt
+
+🚀 How to Run the Project
+Clone the repository:
+git clone https://github.com/KMMythriGowda/SCT_DS_Task4.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open the notebook (SCT_DS_4.ipynb) using:
+
+Google Colab, or
+
+Jupyter Notebook
+
+Run the cells sequentially to view the analysis and visualizations.
+
+📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
