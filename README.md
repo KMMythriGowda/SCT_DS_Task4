@@ -81,3 +81,28 @@ Install required libraries using:
 ```bash
 pip install -r requirements.txt
 
+
+👉 This fixes the display issue you faced earlier.
+
+---
+
+##**How to Run**
+
+Add this **below Requirements**:
+
+```markdown
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/KMMythriGowda/SCT_DS_Task4.git
+
+2. Install the required libraries:
+
+```
+pip install -r requirements.txt
+
+3. Open the notebook (SCT_DS_4.ipynb) using:
+Google Colab
+
+
